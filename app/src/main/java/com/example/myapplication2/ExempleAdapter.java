@@ -15,15 +15,15 @@ public class ExempleAdapter extends ArrayAdapter<Plat> {
 
     public ExempleAdapter(Context context, int resource) {
         super(context, resource);
-
+    // la ressource est le layout qu'on souhaite lui appliquer
     }
 
    // public View getView(int position, View convertView, ViewGroup parent) {
-    //    Button but = new Button(this.getContext());
-     //   Object item = this.getItem(position);
-    //    but.setText("Bonjour " + position + " " + item.toString());
-   //     return but;
-  //  }
+    //    Button button = new Button(this.getContext());
+    //    Object item = this.getItem(position);
+    //    button.setText("Bonjour " + position + " " + item.toString());
+    //    return button;
+    // }
 
     public View getView(int position, View convertView,ViewGroup parent){
         LayoutInflater inflater = LayoutInflater.from(this.getContext());
