@@ -8,4 +8,8 @@
     <string name="logodesc">logo Taste and See</string>
     <string name="connectOK">"Connexion réussie "</string>
     <string name="connectFailed">Mot de passe et/ou login incorrect</string>
+    <string name="avistitle">Titre</string>
+    <string name="avisauteur">Email de l\'auteur</string>
+    <string name="avisdescription">Description</string>
+    <string name="avisvaliderbtn">Ajouter mon avis</string>
 </resources>

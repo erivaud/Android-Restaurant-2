@@ -8,4 +8,8 @@
     <string name="logodesc">Taste and See</string>
     <string name="connectOK">"Connected with success "</string>
     <string name="connectFailed">Connection Failed: wrong login or password</string>
+    <string name="avistitle">Title</string>
+    <string name="avisdescription">Description</string>
+    <string name="avisauteur">Author\'s email</string>
+    <string name="avisvaliderbtn">Add notation</string>
 </resources>

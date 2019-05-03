@@ -15,7 +15,7 @@ public class MenuActivity extends AppCompatActivity {
 
     public void choiceDone(View view) {
         if (view.getId() == R.id.avis_menu) {
-            Intent intent = new Intent(this, AvisActivity.class);
+            Intent intent = new Intent(this, AjouterAvisActivity.class);
             startActivity(intent);
 
         } else if (view.getId() == R.id.geolocalisation_menu) {
