@@ -1,16 +1,28 @@
 package com.example.myapplication2.plats;
 
-public class Plat {
+import java.io.Serializable;
+
+public class Plat implements Serializable {
 
     private String imageUrl;
     private String label;
+    private String description;
     private Double prix;
 
 
-    public Plat(String imgUrl, String label, Double prix) {
+    public Plat(String imgUrl, String label, String description, Double prix) {
         this.imageUrl = imgUrl;
         this.label = label;
+        this.description = description;
         this.prix = prix;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getImgUrl() {
