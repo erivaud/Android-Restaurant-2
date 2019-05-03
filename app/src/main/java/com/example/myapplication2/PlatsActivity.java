@@ -21,7 +21,7 @@ public class PlatsActivity extends AppCompatActivity implements AdapterView.OnIt
         ListView liste = findViewById(R.id.liste_plats);
         ExempleAdapter exempleAdapter = new ExempleAdapter(this, 0);
 
-        Plat plat1 = new Plat("plat1", "Crevette Ananas", "Description", 15.50);
+        Plat plat1 = new Plat("plat1", "Crevettes Ananas", "Super plat de Crevettes à l'Ananas des famille qui tue, je vous recommande grandement ce plat parce que franchement c'est vraiment une tuerie", 15.50);
         Plat plat2 = new Plat("plat2", "Nems", "Description",9.50);
         Plat plat3 = new Plat("plat3", "Soupe chinoise", "Description",11.50);
         Plat plat4 = new Plat("plat4", "Ha Cao", "Description",7.50);

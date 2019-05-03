@@ -5,6 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingStart="10sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
     tools:context=".DetailPlatActivity">
 
     <RelativeLayout
