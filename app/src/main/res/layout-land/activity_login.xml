@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:paddingTop="20sp"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:id="@+id/scrollviewlogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativelogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30sp"
+            android:paddingTop="10sp"
+            android:paddingRight="30sp"
+            android:paddingBottom="10sp">
+
+            <ImageView
+                android:id="@+id/Logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/logodesc"
+                app:srcCompat="@drawable/logo" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/logininput"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_below="@id/Logo"
+                android:hint="@string/loginlabel">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/loginlabel" />
+            </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logininput"
+                android:autoText="false"
+                android:ems="10"
+                android:hint="@string/passwordlabel"
+                android:inputType="textPassword"
+                android:password="true" />
+
+            <Button
+                android:id="@+id/connect_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/password"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:onClick="seConnecter"
+                android:text="@string/loginbtn"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

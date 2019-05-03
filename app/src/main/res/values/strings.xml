@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Restaurant application</string>
+    <string name="greetings">How are you?</string>
+    <string name="gotologin">Go to Login</string>
+    <string name="loginlabel">Login</string>
+    <string name="passwordlabel">password</string>
+    <string name="loginbtn">Login</string>
+    <string name="logodesc">Taste and See</string>
+
+    <string name="connectOK">Connected with success </string>
+    <string name="connectFailed">Connection Failed: wrong login or password</string>
+
+</resources>

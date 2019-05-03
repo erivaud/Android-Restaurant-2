@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Appli de mon Restaurant</string>
+    <string name="greetings">Comment allez-vous ?</string>
+    <string name="gotologin">Se connecter</string>
+    <string name="loginlabel">Identifiant</string>
+    <string name="passwordlabel">mot de passe</string>
+    <string name="loginbtn">Se connecter</string>
+    <string name="logodesc">logo Taste and See</string>
+    <string name="connectOK">"Connexion réussie "</string>
+    <string name="connectFailed">Mot de passe et/ou login incorrect</string>
+</resources>
