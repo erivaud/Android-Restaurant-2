@@ -12,4 +12,6 @@
     <string name="avisdescription">Description</string>
     <string name="avisauteur">Author\'s email</string>
     <string name="avisvaliderbtn">Add notation</string>
+    <string name="avisresulttitre">rate\'s title</string>
+    <string name="avisresultavis">rate</string>
 </resources>

@@ -12,4 +12,6 @@
     <string name="avisauteur">Email de l\'auteur</string>
     <string name="avisdescription">Description</string>
     <string name="avisvaliderbtn">Ajouter mon avis</string>
+    <string name="avisresulttitre">titre de l\'avis</string>
+    <string name="avisresultavis">avis</string>
 </resources>
