@@ -12,60 +12,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Status"
-        android:visibility="invisible" />
+        android:visibility="visible" />
 
     <ProgressBar
         android:id="@+id/avisProgressBar"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="invisible" />
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@id/avisstatus"
+        android:visibility="visible" />
 
-    <LinearLayout
-        android:id="@+id/avisresultlinearlayout"
-        android:layout_width="wrap_content"
-        android:layout_height="110dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/avis_result_title"
-            android:layout_width="300dp"
-            android:layout_height="30dp"
-            android:text="@string/avisresulttitre" />
-
-        <TextView
-            android:id="@+id/avis_result_avis"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="@string/avisresultavis" />
-
-        <TextView
-            android:id="@+id/avis_result_email"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:text="TextView" />
-    </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/avisresultrelativelayout"
-        android:layout_width="wrap_content"
-        android:layout_height="110dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="false"
-        android:gravity="center">
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="110dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="0dp"
-            android:autoText="false"
-            android:gravity="center|center_vertical"
-            android:numeric="decimal"
-            android:text="Rate"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textStyle="bold" />
-    </RelativeLayout>
+    <ListView
+        android:id="@+id/liste_avis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>

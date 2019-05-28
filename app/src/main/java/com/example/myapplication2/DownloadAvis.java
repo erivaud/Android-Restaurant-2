@@ -3,6 +3,7 @@ package com.example.myapplication2;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -23,11 +24,14 @@ public class DownloadAvis extends AsyncTask<URL, Integer, Avis[]> {
         try {
             publishProgress(10);
             Avis[] result = Util.get(urls[0]);
+            Thread.sleep(5000);
             publishProgress(90);
             return result;
         } catch (IOException e) {
-            return new Avis[0];
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
+        return new Avis[0];
     }
 
     protected void onPostExecute(Avis[] avis) {
@@ -36,5 +40,8 @@ public class DownloadAvis extends AsyncTask<URL, Integer, Avis[]> {
         ProgressBar progress = activity.findViewById(R.id.avisProgressBar);
         progress.setVisibility(View.INVISIBLE);
         txt.setText("J'ai "+avis.length+" avis");
+
+        ListView listView activity.findViewById((R.id.liste_avis));
+
     }
 }
