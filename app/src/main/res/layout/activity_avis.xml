@@ -7,6 +7,20 @@
     android:orientation="vertical"
     tools:context=".AjouterAvisActivity">
 
+    <TextView
+        android:id="@+id/avisstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/avisProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
     <LinearLayout
         android:id="@+id/avisresultlinearlayout"
         android:layout_width="wrap_content"

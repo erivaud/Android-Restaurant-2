@@ -1,18 +1,28 @@
 package com.example.myapplication2.avis;
 
-public class avis {
+public class Avis {
 
+
+
+    private String id;
     private String mail;
     private Double stars;
     private String desc;
     private String title;
 
-    public avis(String mail, Double stars, String desc, String title) {
+    public Avis() {}
+
+    public Avis(String id, String mail, Double stars, String desc, String title) {
+        this.id = id;
         this.mail = mail;
         this.stars = stars;
         this.desc = desc;
         this.title = title;
     }
+
+    public String getId() { return id; }
+
+    public void setId(String id) { this.id = id; }
 
     public String getMail() {
         return mail;
@@ -46,3 +56,5 @@ public class avis {
         this.title = title;
     }
 }
+
+

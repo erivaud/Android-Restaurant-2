@@ -27,7 +27,7 @@ public class MenuActivity extends AppCompatActivity {
             startActivity(intent);
 
         } else if (view.getId() == R.id.uploadpicture_menu) {
-            Intent intent = new Intent(this, UploadActivity.class);
+            Intent intent = new Intent(this, DisplayAvis.class);
             startActivity(intent);
         }
     }
